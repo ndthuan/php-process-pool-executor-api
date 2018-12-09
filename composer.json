@@ -1,0 +1,24 @@
+{
+  "name": "ndthuan/php-process-pool-executor-api",
+  "description": "API for process pool executor, inspired by Java's ThreadPoolExecutor",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thuan Nguyen",
+      "email": "me@ndthuan.com"
+    }
+  ],
+  "tags": [
+    "php",
+    "process",
+    "pool"
+  ],
+  "require": {
+    "php": "^7.2",
+    "symfony/process": "^4.2"
+  },
+  "psr-4": {
+    "Ndthuan\\Parallelism\\Api": "src"
+  }
+}
